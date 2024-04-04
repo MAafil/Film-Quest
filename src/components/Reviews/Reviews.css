@@ -1,0 +1,13 @@
+.listedReviews {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 355px;
+}
+
+@media screen and (max-width: 450px) {
+
+    .listedReviews{
+        width: auto;
+    }
+}

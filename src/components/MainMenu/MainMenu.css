@@ -1,0 +1,62 @@
+
+.mainmenu {
+    background-color: #2b2f55;
+    margin-bottom: 16px;
+}
+
+.leftTab {
+    margin-left: 5%;
+}
+
+.nav-tabs .nav-link {
+    color: #FFFFFF !important;
+    border-bottom: none !important;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #576ea1 !important;
+}
+
+a.navButton {
+    padding: 10px 30px !important;
+}
+
+a.navButton:link {
+    text-decoration: none;
+}
+
+a.navButton:hover {
+    color: white !important; 
+}
+
+@media screen and (max-width: 520px) {
+
+    a.navButton {
+        padding: 10px 10px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    a.navButton {
+        padding: 10px 7px !important;
+    }
+
+    .leftTab {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 315px) {
+
+    a.navButton {
+        padding: 10px 5px !important;
+    }
+
+    .leftTab {
+        margin-left: 1%;
+    }
+}
